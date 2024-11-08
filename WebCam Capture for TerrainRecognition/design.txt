@@ -1,0 +1,11 @@
+ Title: WebCam Photo Sharer
+ Description: An app that activates the webcam camera, allows user to capture photo and upload it to web and creates a shareable link
+ Objects: coming with Description
+        WebCam:
+            start()
+            stop()
+            capture()
+        FileSharer():
+            filepath
+            api_key
+            upload()

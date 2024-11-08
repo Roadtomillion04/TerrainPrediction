@@ -1,0 +1,34 @@
+1. Difference between self.ids and self.manager.current_screen.ids is
+self.ids looks for parent class ids
+As in capture() we changed the screen to image screen
+self.manager.current_screen.ids looks for current screen class
+
+2. To change the default button layout, import the button image and change
+background_normal: filepath
+background_press: filepath
+
+2. It' always good to declare self.variable in class inside methods
+so that we can access it from other methods in same class instead returning
+as well as other outside class
+
+4. To access the variable of other screen use
+App. get_running_app().root.ids.(id_name of that screen declared) in (root widget.variable name)
+variable name should be self.variable
+
+5. Label widget in kivy are not selectable in app
+
+6. Use Window.clearcolor = (R, G, B, A) in build() to change background of kivy app
+
+7. Use Clipboard.copy(str) to copy in our computer clipboard
+
+8. It is always good to give absolute path of a folder, when you want save files
+in directory
+
+9. To do machine learning, put all functions in one .py file and
+do stuff in another file to make it more organize
+
+10. To save a unique image we can use enumerate() or datetime as
+image name.
+
+11. Class name of a screen should be same in frontend kivy file
+

@@ -1,0 +1,8 @@
+filestack_python==3.5.0
+Kivy==2.1.0
+numpy==1.22.3
+pandas==1.4.0
+pynter==0.1.6
+requests==2.27.1
+tensorflow==2.10.0
+tensorflow_hub==0.12.0
